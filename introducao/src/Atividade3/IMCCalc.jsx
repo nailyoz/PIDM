@@ -9,6 +9,7 @@ export default class Calculadora extends Component {
         if( !this.props.altura || !this.props.peso) return null; 
         
         const imc = this.props.peso/(this.props.altura**2)
+        
 
         return (
             <View>
@@ -18,8 +19,9 @@ export default class Calculadora extends Component {
                             displayType={"text"}
                             thousandSeparator={true}
                             decimalScale={2}
-      />
+                />
                 </Text>
+
                 <IMCMsg imc={imc} />
             </View>
         )

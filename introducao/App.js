@@ -11,7 +11,7 @@ import Atividade03 from './src/Atividade3b/Atividiade03';
 
 export default function App() {
   return (
-    <CalculadoraApp />
+    <CalculadoraApp/>
   );
 }
 
